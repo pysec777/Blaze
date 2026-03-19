@@ -8,9 +8,26 @@ h1 {
     background-color: rgb(255, 0, 0)
 }
 footer {
-    color:aliceblue
+    color:aliceblue;
+    background-color: red;
+    text-align: center;
 }
 
-.foto1 {
-    text-align:center;
+.Foto-Container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Foto1, .Foto2 {
+    margin: 0 10px;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color:aliceblue;
 }
